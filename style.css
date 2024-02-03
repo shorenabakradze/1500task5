@@ -48,7 +48,7 @@ body {
 .grid-div-1 {
   max-width: 800px;
   padding: 50px;
-  background-color: rgb(188, 120, 243);
+  background-color: hsl(263, 55%, 52%);
   border-radius:10px;
   box-shadow: 5px 10px 5px #fff;
   grid-column-start: 1;
@@ -57,9 +57,9 @@ body {
 }
 
 .grid-div-2 {
-  max-width: 300px;
+  max-width: 400px;
   padding: 50px;
-  background-color: rgb(136, 119, 143);
+  background-color:  hsl(217, 19%, 35%);
   border-radius: 10px;
   box-shadow: 5px 10px 5px #fff;
   grid-column: 3;
@@ -67,9 +67,9 @@ body {
 }
 
 .grid-div-3 {
-  max-width: 300px;
+  max-width: 400px;
   padding: 50px;
-  background-color: rgb(231, 224, 235);
+  background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
   box-shadow: 5px 10px 5px #fff;
   grid-row-start: 1;
@@ -78,9 +78,9 @@ body {
 }
 
 .grid-div-4 {
-  max-width: 300px;
+  max-width: 400px;
   padding: 50px;
-  background-color: rgb(231, 224, 235);
+  background-color:  hsl(0, 0%, 100%);
   border-radius: 10px;
   box-shadow: 5px 10px 5px #fff;
   grid-column: span 1;
@@ -90,7 +90,7 @@ body {
 .grid-div-5 {
   max-width: 800px;
   padding: 50px;
-  background-color: rgb(64, 71, 82);
+  background-color: hsl(219, 29%, 14%);
   border-radius: 10px;
   box-shadow: 5px 10px 5px #fff;
   grid-column-start: 2;
@@ -103,6 +103,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
+  font-weight: 600;
 
 }
 h4 {
@@ -110,23 +111,26 @@ h4 {
   font-size: 16px;
 }
 
- p {
+.title-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  padding-top: 25px;
+  padding-top: 30px;
+  color: rgb(17, 16, 16);
 }
 .title{
   font-family: 'Open Sans', sans-serif;
   font-size: 26px;
   font-weight: bold;
+  padding-top: 30px;
+
 }
 .flex-div {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 250px;
+  width: 270px;
 }
 .title-div{
-  width: 150px;
-
+  width: 200px;
+  padding-left: 10px;
 }
