@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .grid-div-1,
+    .grid-div-5,
+    .grid-div-2,
+    .grid-div-3,
+    .grid-div-4 {
+      max-width: 100%;
+    }
+  
+  }
