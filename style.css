@@ -1,6 +1,7 @@
 body {
   width: 100%;
   margin: 0 auto;
+  background-color: rgb(236, 231, 224);
 }
 .grid-container {
   width: 100%;
@@ -10,7 +11,7 @@ body {
   grid-template-columns: repeat(4, auto auto auto);
   grid-template-rows: repeat(2, auto);
   gap: 10px;
-  background-color: rgb(236, 231, 224);
+  
   padding: 50px;
 }
 .grid-div-1 img {
@@ -47,56 +48,61 @@ body {
 
 .grid-div-1 {
   max-width: 800px;
-  padding: 50px;
+  padding: 13px;
   background-color: hsl(263, 55%, 52%);
-  border-radius:10px;
+  border-radius:15px;
   box-shadow: 5px 10px 5px #fff;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row: 1;
+  margin: 10px;
 }
 
 .grid-div-2 {
   max-width: 400px;
-  padding: 50px;
+  padding: 13px;
   background-color:  hsl(217, 19%, 35%);
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 5px 10px 5px #fff;
   grid-column: 3;
   grid-row: 1;
+  margin: 10px;
 }
 
 .grid-div-3 {
   max-width: 400px;
-  padding: 50px;
+  padding: 13px;
   background-color: hsl(0, 0%, 100%);
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 5px 10px 5px #fff;
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column: 4;
+  margin: 10px;
 }
 
 .grid-div-4 {
   max-width: 400px;
-  padding: 50px;
+  padding: 13px;
   background-color:  hsl(0, 0%, 100%);
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 5px 10px 5px #fff;
   grid-column: span 1;
   grid-row: 2;
+  margin: 10px;
 }
+
 
 .grid-div-5 {
   max-width: 800px;
-  padding: 50px;
+  padding: 13px;
   background-color: hsl(219, 29%, 14%);
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 5px 10px 5px #fff;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row:  2;
-
+  margin: 10px;
 }
 
  h3 {
@@ -113,13 +119,14 @@ h4 {
 
 .title-text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   padding-top: 30px;
-  color: rgb(17, 16, 16);
+  color:rgb(214, 205, 191); 
+  line-height: 20px;
 }
 .title{
   font-family: 'Open Sans', sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
   padding-top: 30px;
 
